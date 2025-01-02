@@ -10,4 +10,4 @@ class Bags_owner(Bags):#Нам необходимо добавить имя и �
         self.name=name
         self.age=age
     def info(self):
-        print(f"Это {self.color} портфель от бренда {self.brand}, принадлежащий {self._name}.")
+        print(f"Это {self.color} портфель от бренда {self.brand}, принадлежащий {self.name}.")
